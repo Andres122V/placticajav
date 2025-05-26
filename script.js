@@ -6,7 +6,7 @@ window.onload = function iniciarEfectoMatrix() {
   canvas.width = container.clientWidth;
   canvas.height = container.clientHeight;
 
-  const letters = "アァイィウエカキクケコサシスセソタチツテトナニヌネノABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const letters = "0101010001110101abcdefjhijkmnñopqlxyz";
   const fontSize = 14;
   const columns = Math.floor(canvas.width / fontSize);
   const drops = Array.from({ length: columns }).fill(1);
